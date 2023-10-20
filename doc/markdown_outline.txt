@@ -24,7 +24,7 @@ this: >
   let g:markdown_outline_no_mappings = 1
   augroup MarkdownOutline
     autocmd!
-    autocmd FileType markdown nnoremap <buffer><silent> <Leader>o <Plug>MarkdownOutline
+    autocmd FileType markdown nnoremap <buffer> <Leader>o <Plug>MarkdownOutline
   augroup END
 <
 						   *g:loaded_markdown_outline*
